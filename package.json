@@ -1,0 +1,14 @@
+{
+  "name": "qtappdebugger",
+  "version": "0.0.1",
+  "description": "Qt for WebAssembly application debugger",
+  "main": "index.js",
+  "scripts": {
+    "build": "cat src/qtappdebug.js src/qrafdebug.js src/qtimerdebug.js src/qwebui.js src/qwm.js > dist/qtappdebug.bundle.js"
+  },
+  "author": "Morten Sørvig",
+  "license": "MIT",
+  "dependencies": {
+    "spectorjs": "^0.9.10"
+  }
+}
