@@ -1,6 +1,8 @@
 Qt WebAssembly App Debugger
 ===========================
 
+![App Debugger Screenshot](https://user-images.githubusercontent.com/296277/69805433-e9bc4e00-11e0-11ea-8a04-bc6834e05870.png)
+
 The App debugger supports inspecting ands controlling parts of the web runtime environment:
  * Monitoring and single-stepping requestAnimationFrame callbacks
  * Monitoring and single-stepping timer callbacks
