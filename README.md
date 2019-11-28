@@ -7,6 +7,12 @@ The App debugger supports inspecting ands controlling parts of the web runtime e
  * Testing canvas resize and support for multiple canvases
  * WebGL command capture with SpectorJS
 
+Installation
+------------
+ * Build from source:
+
+     npm run-script build
+
 Usage
 -----
 
