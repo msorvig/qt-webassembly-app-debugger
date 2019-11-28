@@ -9,14 +9,14 @@ The App debugger supports inspecting ands controlling parts of the web runtime e
 
 Installation
 ------------
- * Build from source:
+Build from source:
 
      npm run-script build
 
- * Install with npm
-
+Install with npm:
+    
     (npm init --yes) # create temp project if needed
-     npm install qtappdebugger
+    npm install qtappdebugger
 
 Usage
 -----
