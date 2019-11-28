@@ -20,14 +20,20 @@ Install with npm:
 
 Usage
 -----
-Copy qtappdebugger.html to the project directory. It looks for scripts in node_modules/,
-adjust if neccesary.
+Copy node_modules/qtappdebugger/qtappdebugger.html to the project directory. It looks for
+scripts in node_modules/, adjust the paths if needed.
 
 Edit qtappdebugger.html and provide the name of application (or alternatively
-enter the nmae in the browser later). Examples:
+enter the name in the browser later). Examples:
 
     let appName = "appname";   // loads appname.wasm, appname.js etc.
     let appName = "path/to/app/appname"; // subdirectories are OK, too
 
 Start a web server and open qtappdebugger.html. The app debugger looks for qtloader.js
 in the app directory, and uses its API to run the application.
+
+Tips
+----
+* Link the application with -g2 to get functon names in stack traces captured by SpectorJS.
+* Mulit-canvas support requires custom application code: Connect to the QGuiApplication::screenAdded()
+  signal and show a new QWindow on the new screen.
