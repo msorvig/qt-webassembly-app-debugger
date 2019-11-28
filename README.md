@@ -3,7 +3,7 @@ Qt WebAssembly App Debugger
 
 ![App Debugger Screenshot](https://user-images.githubusercontent.com/296277/69805433-e9bc4e00-11e0-11ea-8a04-bc6834e05870.png)
 
-The App debugger supports inspecting ands controlling parts of the web runtime environment:
+The App debugger supports inspecting and controlling parts of the web runtime environment:
  * Monitoring and single-stepping requestAnimationFrame callbacks
  * Monitoring and single-stepping timer callbacks
  * Testing canvas resize and support for multiple canvases
@@ -37,5 +37,5 @@ in the app directory, and uses its API to run the application.
 Tips
 ----
 * Link the application with -g2 to get functon names in stack traces captured by SpectorJS.
-* Mulit-canvas support requires custom application code: Connect to the QGuiApplication::screenAdded()
+* Multi-canvas support requires custom application code: Connect to the QGuiApplication::screenAdded()
   signal and show a new QWindow on the new screen.
